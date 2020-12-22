@@ -19,4 +19,4 @@
   (= #{2 3} (set/intersection #{1 2 3 4} #{2 3 5}))
 
   "But don't forget about the difference"
-  (= #{1 4} (set/difference #{1 2 3 4 5} #{2 3 5})))
+  (= #{__} (set/difference #{1 2 3 4 5} #{2 3 5})))
